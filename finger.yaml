@@ -1,0 +1,14 @@
+- name: next.js
+  focus: true
+  rule:
+    - regexps:
+        header:
+          - next-route
+        body:
+          - /_next/static
+- name: react-server-components
+  focus: true
+  rule:
+    - regexps:
+        header:
+          - rsc
